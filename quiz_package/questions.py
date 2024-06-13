@@ -1,7 +1,7 @@
 import os
 
 def get_default_readme_path():
-    return os.path.join(os.path.dirname(os.path.abspath(__file__)), "questions", "README.md")
+    return os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "questions", "README.md")
 
 def load_questions(path):
     with open(path, "r", encoding="utf-8") as f:

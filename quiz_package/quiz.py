@@ -1,5 +1,4 @@
-import random
-from utils import ask_question, validate_answer, select_question
+from .utils import ask_question, validate_answer, select_question
 
 def quiz(questions, randomize):
     correct_count = 0
